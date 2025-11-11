@@ -1,0 +1,409 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-color:  #d4b996;
+}
+
+.navbar{
+    background-color: wheat;
+    color: #2c1810;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 8px;
+    padding: 5px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    position: sticky;
+    top: 1px;
+    z-index: 2;
+}
+.headnav{
+    padding-left: 10px;
+}
+
+.links{
+    display: flex;
+    margin: 5px;
+    column-gap: 20px;
+    
+}
+.navbarlink{
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.navbarlink a{
+    text-decoration: none;
+    color: #2c1810;
+}
+.navbarlink a:hover{
+    text-decoration: none;
+    text-decoration-color:#b8860b ;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+    color:  #b8860b;
+}
+.sidenavbar{
+    background-color: #f2d7a0;
+    color: #2c1810;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -80%;
+    z-index: 2;
+}
+
+.sideheadnav{
+     padding-left:15px;
+}
+
+.sidenavbarlink{
+    
+    padding-top: 50px;
+    padding-left:10px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.sidenavbarlink a{
+    text-decoration: none;
+    color: #2c1810;
+}
+.sidenavbarlink a:hover{
+    text-decoration: none;
+    text-decoration-color:#b8860b ;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+    color:  #b8860b;
+}
+
+.close-btn{
+    text-align: right;
+    padding: 4px;
+    margin: 4px;
+
+}
+
+.toggle-btn{
+    display: none;
+}
+
+/* this is the header section  */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    transform: translate(-5%,0);
+}
+.headerwords{
+    padding: 10px;
+    text-align: justify;
+    margin: 20px;
+    text-indent: 2px;
+}
+.headerwords h1{
+    padding: 10px;
+}
+.headerwords p{
+    padding: 10px;
+}
+.headerwords button{
+   padding: 10px;
+   margin-left: 30px;
+   margin-top:10px ;
+   background-color: #2c1810;
+   color: #b8860b;
+   font-weight: 600;
+   border-radius: 6px;
+}
+.headerwords button:hover{
+    background-color: #b8860b;
+    cursor: pointer;
+    color: #2c1810;
+}
+.headerimg{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pforpara{
+    font-size: 15px;
+    margin-left: 20px; 
+}
+/* this is the section for the service*/
+.service{
+    padding: 10px;
+    margin:10px;
+}
+.servicecontainer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.servicecontainer2{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+div .smile, div.truck,div.box{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.servicecontainer2 div{
+    background-color: #fff8e7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+/* this is for new arrival */
+
+.newarrival{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.naimg{
+    position: relative;
+    flex-basis: 20%;
+    max-width: 220px;   /* control column width */
+    margin: 10px;
+    
+}
+.naimg button{
+    
+    display: inline-block;
+    margin: 10px auto 0;
+    background-color: #d4b996;
+    color: #2c1810;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.newarrival button:hover{
+    cursor: pointer;
+    background-color: #b8860b;
+    color: #fff8e7;
+}
+.img1{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* this is the sction for the newsletter */
+
+.news h1{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 600;
+}
+.news p{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.news input{
+    padding: 11px;
+    margin: 10px;
+    padding: 11px;
+    width: 80vw;
+    border-color: #2c1810;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+}
+.newssub{
+    text-align: center;
+}
+
+.subbtn{
+    text-align: center;
+}
+.news button{
+    padding: 10px;
+    margin-left: 30px;
+    margin-top:10px ;
+    background-color: #b8860b;
+    color:  #2c1810;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.news button:hover{
+    background-color: #2c1810;
+    cursor: pointer;
+    color:  #b8860b;
+}
+/* this is the footer section */
+.footer{
+    background-color: #2c1810;
+    color: #b8860b;
+    margin-top: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.name{
+    padding: 10px;
+}
+.para{
+    margin: 10px;
+}
+.icon{
+    margin: 10px;
+}
+
+/* this is for the colection page  */
+
+.products-section{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.product-search{
+    border: solid #2c1810 2px;
+    border-radius: 20px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+}
+.search{
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    background-color: #d4b996;
+}
+.search:focus{
+    outline: none;
+}
+.img2{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin: 20px;
+    padding: 10px;
+
+}
+.product-box{
+    flex-basis: 20%;
+    text-align: center;
+}
+.product-box img{
+    border-radius: 5px;
+}
+.products p{
+    font-size: 20px;
+    color: #2c1810;
+    
+}
+
+
+/* this is for the contact page  */
+
+.contact{
+     margin: 10vh auto;
+    background-color: #2c1810;
+    width: 60%;
+    height:auto;
+    color: #b8860b;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.conname , .concon , .conmsg , .conbtn {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+}
+.contactheader{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact textarea{
+    flex-wrap: wrap;
+    width: 100%;
+    
+    font-size: 20px;
+    gap: 10px;
+}
+.conwhole{
+    margin: 10px;
+    padding: 10px;
+}
+.connam{
+    margin-bottom: 10px;
+}
+.divbtn{
+    padding: 10px;
+    margin-top:10px ;
+    background-color: #b8860b;
+    color:  #2c1810;
+    font-weight: 600;
+    border-radius: 6px;
+}
+div button:hover{
+    background-color: #d4b996;
+    cursor: pointer;
+    color: #2c1810;
+}
+
+
+/* media querry */
+@media screen and (max-width:700px){
+    .toggle-btn{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+    .headerwords button{
+
+    }
+    .servicecontainer1{
+        display: flex;
+
+    }
+    .servicecontainer2{
+        flex-direction: column;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+}
+
+/* this is for header in meadia querry */
+
