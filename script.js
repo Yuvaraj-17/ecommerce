@@ -11,4 +11,9 @@ function notshow(event){
     event.preventDefault();
     sidenav.style.left = "-80%";
     sidenav.style.transition="1s";
+
 }
+document.querySelector(".headnav").addEventListener("click",function(event){
+    event.preventDefault();
+    window.location.href="index.html"
+})
