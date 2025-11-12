@@ -15,5 +15,6 @@ function notshow(event){
 }
 document.querySelector(".headnav").addEventListener("click",function(event){
     event.preventDefault();
-    window.location.href="index.html"
+    window.location.href="index.html "
 })
+
