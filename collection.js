@@ -3,6 +3,7 @@ var search = document.querySelector(".search");
 var productbox = document.querySelectorAll(".product-box");
 
 var productContainer = document.getElementById("product");
+
 var noProductsMsg = document.createElement("p");
 noProductsMsg.textContent = "No products found";
 noProductsMsg.style.textAlign = "center";
@@ -27,3 +28,4 @@ search.addEventListener("keyup", function (event) {
     // Show or hide the "No products found" message
     noProductsMsg.style.display = found ? "none" : "block";
 });
+
