@@ -22,6 +22,7 @@ body{
 }
 .headnav{
     padding-left: 10px;
+    cursor:pointer;
 }
 
 .links{
@@ -406,4 +407,5 @@ div button:hover{
 }
 
 /* this is for header in meadia querry */
+
 
