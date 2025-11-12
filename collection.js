@@ -19,12 +19,11 @@ search.addEventListener("keyup", function (event) {
         var productname = productbox[i].querySelector("p").textContent;
         if (productname.toUpperCase().indexOf(enteredValue) < 0) { 
         productbox[i].style.display = "none";
-            
     }else{
         productbox[i].style.display = "block";
-            found=true;
+        found=true;
         }
     }
-    noProductsMsg.style.display=found?"none":"block";
+    // Show or hide the "No products found" message
+    noProductsMsg.style.display = found ? "none" : "block";
 });
-
